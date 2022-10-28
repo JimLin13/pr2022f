@@ -2,7 +2,7 @@
 
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
   height="512" width="512" viewBox="0 0 512 512">
-
+  
   <!-- 背景 -->
   <image href="./character_1.png" height="512" width="512" />
   <rect width="512" height="512" stroke="red" fill="rgba(255,255,255,0.95)" opacity="0.95" ></rect>
@@ -46,8 +46,10 @@
   <text x="254" y="250" font-size="16" text-anchor="middle" fill="red">(256, 256)</text>
 
   <!-- 橢圓 -->
-  <ellipse fill="#00f1" stroke="#00f9" stroke-width="5" cx="266" cy="182" rx="180" ry="180"/>
-
+  <ellipse fill="transparent" stroke="black" stroke-width="5" cx="266" cy="182" rx="190" ry="175"/>
+  
+  <circle fill="transparent" stroke="black" stroke-width="5" cx="45" cy="240" r="44"/>
+  <circle fill="transparent" stroke="DodgerBlue" stroke-width="8" cx="265" cy="265" r="235"/>
 </svg>
 
 
