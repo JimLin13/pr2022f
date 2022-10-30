@@ -1,70 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<svg 
-  xmlns="http://www.w3.org/2000/svg" 
-  xmlns:xlink="http://www.w3.org/1999/xlink" 
-  height="640" 
-  width="640" 
-  viewBox="-64 -64 640 640">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+  height="512" width="512" viewBox="0 0 512 512">
 
-  <!-- 底圖 小圓 -->
+  <!-- 背景 -->
+  
+  <!-- 座標線 -->
+  <text x="2" y="12" font-size="12" text-anchor="start" fill="red">0</text>
+  <path d="M256  64 H0 H512" stroke="lightgray" fill="white"></path>
+  <text x="2" y="68" font-size="12" text-anchor="start" fill="red">64</text>
+  <path d="M256 128 H0 H512" stroke="lightgray" fill="white"></path>
+  <text x="2" y="132" font-size="12" text-anchor="start" fill="red">128</text>
+  <path d="M256 192 H0 H512" stroke="lightgray" fill="white"></path>
+  <text x="2" y="196" font-size="12" text-anchor="start" fill="red">192</text>
+  <path d="M256 256 H0 H512" stroke="lightgray" fill="white"></path>
+  <text x="2" y="260" font-size="12" text-anchor="start" fill="red">256</text>
+  <path d="M256 320 H0 H512" stroke="lightgray" fill="white"></path>
+  <text x="2" y="324" font-size="12" text-anchor="start" fill="red">320</text>
+  <path d="M256 384 H0 H512" stroke="lightgray" fill="white"></path>
+  <text x="2" y="388" font-size="12" text-anchor="start" fill="red">384</text>
+  <path d="M256 448 H0 H512" stroke="lightgray" fill="white"></path>
+  <text x="2" y="452" font-size="12" text-anchor="start" fill="red">448</text>
+  <text x="2" y="510" font-size="12" text-anchor="start" fill="red">512</text>
 
-  <circle cx="256" cy="544" r="32" fill="none" stroke="cyan"/>
-  <circle cx="256" cy="512" r="32" fill="none" stroke="cyan"/>
-  <circle cx="256" cy="480" r="32" fill="none" stroke="cyan"/>
-  <circle cx="256" cy="448" r="32" fill="none" stroke="cyan"/>
-  <circle cx="256" cy="416" r="32" fill="none" stroke="cyan"/>
-  <circle cx="256" cy="384" r="32" fill="none" stroke="cyan"/>
-  <circle cx="256" cy="352" r="32" fill="none" stroke="cyan"/>
-  <circle cx="256" cy="320" r="32" fill="none" stroke="cyan"/>
-  <circle cx="256" cy="288" r="32" fill="none" stroke="cyan"/>
+  <path d="M64  0 V512" stroke="lightgray" fill="white"></path>
+  <text x="58" y="12" font-size="12" text-anchor="start" fill="red">64</text>
+  <path d="M128  0 V512" stroke="lightgray" fill="white"></path>
+  <text x="118" y="12" font-size="12" text-anchor="start" fill="red">128</text>
+  <path d="M195  0 V512" stroke="lightgray" fill="white"></path>
+  <text x="186" y="12" font-size="12" text-anchor="start" fill="red">192</text>
+  <path d="M256  0 V512" stroke="lightgray" fill="white"></path>
+  <text x="246" y="12" font-size="12" text-anchor="start" fill="red">256</text>
+  <path d="M320  0 V512" stroke="lightgray" fill="white"></path>
+  <text x="310" y="12" font-size="12" text-anchor="start" fill="red">320</text>
+  <path d="M384  0 V512" stroke="lightgray" fill="white"></path>
+  <text x="374" y="12" font-size="12" text-anchor="start" fill="red">384</text>
+  <path d="M448  0 V512" stroke="lightgray" fill="white"></path>
+  <text x="438" y="12" font-size="12" text-anchor="start" fill="red">448</text>
+  <text x="492" y="12" font-size="12" text-anchor="start" fill="red">512</text>
 
-  <circle cx="256" cy="256" r="32" fill="none" stroke="cyan"/>
-
-  <circle cx="256" cy="224" r="32" fill="none" stroke="cyan"/>
-  <circle cx="256" cy="192" r="32" fill="none" stroke="cyan"/>
-  <circle cx="256" cy="160" r="32" fill="none" stroke="cyan"/>
-  <circle cx="256" cy="128" r="32" fill="none" stroke="cyan"/>
-  <circle cx="256" cy="96"  r="32" fill="none" stroke="cyan"/>
-  <circle cx="256" cy="64"  r="32" fill="none" stroke="cyan"/>
-  <circle cx="256" cy="32"  r="32" fill="none" stroke="cyan"/>
-  <circle cx="256" cy="0"   r="32" fill="none" stroke="cyan"/>
-  <circle cx="256" cy="-32" r="32" fill="none" stroke="cyan"/>
-
-  <!-- 底圖 下 大圓 -->
-  <circle cx="256" cy="544" r="32" fill="none" stroke="cyan"/>
-  <circle cx="256" cy="512" r="64" fill="none" stroke="cyan"/>
-  <circle cx="256" cy="480" r="96" fill="none" stroke="cyan"/>
-  <circle cx="256" cy="448" r="128" fill="none" stroke="cyan"/>
-  <circle cx="256" cy="416" r="160" fill="none" stroke="cyan"/>
-  <circle cx="256" cy="384" r="192" fill="none" stroke="cyan"/>
-  <circle cx="256" cy="352" r="224" fill="none" stroke="cyan"/>
-  <circle cx="256" cy="320" r="256" fill="none" stroke="cyan"/>
-  <circle cx="256" cy="288" r="288" fill="none" stroke="cyan"/>
-  <circle cx="256" cy="256" r="320" fill="none" stroke="cyan"/>
-
-  <!-- 底圖 上 大圓 -->
-  <circle cx="256" cy="224" r="288" fill="none" stroke="cyan"/>
-  <circle cx="256" cy="192" r="256" fill="none" stroke="cyan"/>
-  <circle cx="256" cy="160" r="224" fill="none" stroke="cyan"/>
-  <circle cx="256" cy="128" r="192" fill="none" stroke="cyan"/>
-  <circle cx="256" cy="96"  r="160" fill="none" stroke="cyan"/>
-  <circle cx="256" cy="64"  r="128" fill="none" stroke="cyan"/>
-  <circle cx="256" cy="32"  r="96" fill="none" stroke="cyan"/>
-  <circle cx="256" cy="0"   r="64" fill="none" stroke="cyan"/>
-  <circle cx="256" cy="-32" r="32" fill="none" stroke="cyan"/>
-
-  <circle cx="256" cy="544" r="32" fill="none" stroke="blue" stroke-width="2" pathLength="100" stroke-dasharray="100" stroke-dashoffset="100" transform="rotate(90,256,544)">
-    <animate attributeName="stroke-dashoffset" to="0" begin="0.0s" dur="1.0s" repeatCount="1" fill="freeze"/>
-  </circle>
-
-  <circle cx="256" cy="256" r="320" fill="none" stroke="blue" stroke-width="3" pathLength="100" stroke-dasharray="100" stroke-dashoffset="100" transform="rotate(90,256,256)">
-    <animate attributeName="stroke-dashoffset" to="0" begin="1.0s" dur="2.0s" repeatCount="1" fill="freeze"/>
-  </circle>
-
-
-  <circle cx="256" cy="224" r="288" fill="none" stroke="blue" stroke-width="3" pathLength="100" stroke-dasharray="100" stroke-dashoffset="100" transform="rotate(-90,256,224)">
-    <animate attributeName="stroke-dashoffset" to="0" begin="3.0s" dur="2.0s" repeatCount="1" fill="freeze"/>
-  </circle>
 </svg>
 
+
+    
